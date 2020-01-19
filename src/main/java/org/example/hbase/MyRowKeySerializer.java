@@ -7,7 +7,6 @@ import org.apache.flume.FlumeException;
 import org.apache.flume.conf.ComponentConfiguration;
 import org.apache.flume.sink.hbase.HbaseEventSerializer;
 import org.apache.flume.sink.hbase.SimpleHbaseEventSerializer;
-import org.apache.flume.sink.hbase.SimpleRowKeyGenerator;
 import org.apache.hadoop.hbase.client.Increment;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Row;

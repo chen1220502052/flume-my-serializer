@@ -1,3 +1,3 @@
 # flume-my-serializer
 
-flume hbase serializer 自定义rowkey
+flume1.9  hbase serializer 自定义rowkey
