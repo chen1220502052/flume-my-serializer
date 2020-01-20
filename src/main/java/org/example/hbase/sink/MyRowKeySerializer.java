@@ -1,4 +1,4 @@
-package org.example.hbase;
+package org.example.hbase.sink;
 
 import com.google.common.base.Charsets;
 import org.apache.flume.Context;

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9135b6fe-9ebf-4348-a5bc-073c0198f2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9135b6fe-9ebf-4348-a5bc-073c0198f2d1" name="Default Changelist" comment="增加flume测试">
+      <change afterPath="$PROJECT_DIR$/src/main/assembly/assembly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flume/client/FlumeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flume/flume-conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flume/flume-env.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flume/flume-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hbase/MyRowKeySerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hbase/MyRowKeySerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hbase/MyRowKeySerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hbase/sink/MyRowKeySerializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +42,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\flume-my-serializer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.flume.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\flume-my-serializer\src" />
+      <recent name="D:\flume-my-serializer\src\main" />
+      <recent name="D:\flume-my-serializer\src\main\resources\flume" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -65,41 +85,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579427914727</updated>
-      <workItem from="1579427919216" duration="3318000" />
+      <workItem from="1579427919216" duration="7069000" />
+      <workItem from="1579511240610" duration="926000" />
     </task>
+    <task id="LOCAL-00001" summary="修改readme">
+      <created>1579431289179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579431289179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改readme" />
+    <MESSAGE value="增加flume测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加flume测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="129" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579429592637">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="129" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579429592637" />
+    <state x="276" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579511798500">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="276" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1579511798500" />
     <state x="435" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1579429473246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="435" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579429473246" />
-    <state width="1066" height="213" key="GridCell.Tab.0.bottom" timestamp="1579430252849">
+    <state x="308" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579485036335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1066" height="213" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579430252849" />
-    <state width="1066" height="213" key="GridCell.Tab.0.center" timestamp="1579430252849">
+    <state x="308" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1579485036335" />
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1579512134617">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1066" height="213" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579430252849" />
-    <state width="1066" height="213" key="GridCell.Tab.0.left" timestamp="1579430252849">
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579512134617" />
+    <state width="916" height="91" key="GridCell.Tab.0.bottom" timestamp="1579512134709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1066" height="213" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579430252849" />
-    <state width="1066" height="213" key="GridCell.Tab.0.right" timestamp="1579430252849">
+    <state width="916" height="91" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579512134709" />
+    <state width="916" height="91" key="GridCell.Tab.0.center" timestamp="1579512134709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1066" height="213" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579430252849" />
+    <state width="916" height="91" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579512134709" />
+    <state width="916" height="91" key="GridCell.Tab.0.left" timestamp="1579512134709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="916" height="91" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579512134709" />
+    <state width="916" height="91" key="GridCell.Tab.0.right" timestamp="1579512134709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="916" height="91" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579512134709" />
     <state x="0" y="0" key="Maven.ArtifactSearchDialog" timestamp="1579429144387">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1579429144387" />
+    <state x="283" y="107" key="Vcs.Push.Dialog.v2" timestamp="1579431300139">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="283" y="107" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579431300139" />
+    <state x="20" y="345" width="672" height="678" key="search.everywhere.popup" timestamp="1579512085930">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="20" y="345" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579512085930" />
   </component>
 </project>
