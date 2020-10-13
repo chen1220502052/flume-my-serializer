@@ -17,7 +17,7 @@
         <flume.version>1.9.0</flume.version>
         <hbase.version>1.2.4</hbase.version>
         <log4j2.version>2.13.0</log4j2.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <profiles>
