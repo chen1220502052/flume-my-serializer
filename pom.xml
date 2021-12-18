@@ -16,7 +16,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <flume.version>1.9.0</flume.version>
         <hbase.version>1.2.4</hbase.version>
-        <log4j2.version>2.13.0</log4j2.version>
+        <log4j2.version>2.17.0</log4j2.version>
         <junit.version>4.13</junit.version>
     </properties>
 
